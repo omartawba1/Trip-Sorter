@@ -16,6 +16,15 @@ class Cards
      */
     private $cards = [
         [
+            "Departure"             => "Gerona Airport",
+            "Arrival"               => "Stockholm",
+            "Transportation"        => "Plane",
+            "Transportation_number" => "SK455",
+            "Seat"                  => "3A",
+            "Gate"                  => "45B",
+            "Baggage"               => "334",
+        ],
+        [
             "Departure"             => "Stockholm",
             "Arrival"               => "New York",
             "Transportation"        => "Plane",
@@ -24,25 +33,16 @@ class Cards
             "Gate"                  => "22",
         ],
         [
-            "Departure"             => "Madrid",
-            "Arrival"               => "Barcelona",
-            "Transportation"        => "Train",
-            "Transportation_number" => "78A",
-            "Seat"                  => "45B",
-        ],
-        [
             "Departure"      => "Barcelona",
             "Arrival"        => "Gerona Airport",
             "Transportation" => "Bus",
         ],
         [
-            "Departure"             => "Gerona Airport",
-            "Arrival"               => "Stockholm",
-            "Transportation"        => "Plane",
-            "Transportation_number" => "SK455",
-            "Seat"                  => "3A",
-            "Gate"                  => "45B",
-            "Baggage"               => "334",
+            "Departure"             => "Madrid",
+            "Arrival"               => "Barcelona",
+            "Transportation"        => "Train",
+            "Transportation_number" => "78A",
+            "Seat"                  => "45B",
         ],
     ];
     
