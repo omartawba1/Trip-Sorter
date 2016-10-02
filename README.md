@@ -8,8 +8,8 @@ composer install
 If you don't have composer, you can get it from [Composer](https://getcomposer.org/)
 
 ## Run the application
-Note that the source file used for this application is located in "repositories" folder.
-You ca re-sort the array as you want or use your own array.
+Note that the source file used for this application is located in "src/Repositories/Cards.php" path.
+You can re-sort the array as you want or use your own array.
 
 ```
 php index.php
