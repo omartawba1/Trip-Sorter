@@ -1,0 +1,22 @@
+{
+    "name": "tawba/trip-sorter",
+    "description": "Trip Sorter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Omar Tawba",
+            "email": "omartawba1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "TripSorter\\": "src/"
+        }
+    }
+}
