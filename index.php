@@ -3,7 +3,7 @@
 // Composer autoload
 require_once __DIR__ . '/vendor/autoload.php';
 
-$tripSorter  = new TripSorter\TripCardsSorter();
-$cards_array = $tripSorter->buildJourney();
+$tripSorter   = new TripSorter\TripCardsSorter();
+$journey_desc = $tripSorter->buildJourney();
 
-echo "<pre>". $cards_array;
+echo "<pre>" . $journey_desc . "</pre>";
