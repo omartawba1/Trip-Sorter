@@ -29,6 +29,7 @@ class TripCardsSorter
     /**
      * Build the journey cards
      *
+     * @return HTML for journey description
      */
     public function buildJourney()
     {
@@ -46,7 +47,7 @@ class TripCardsSorter
      * @param $cards_count
      * @param $start_index
      *
-     * @return mixed
+     * @return $cards_array
      */
     private function recursiveSort($cards_array, $cards_count, $start_index = 0)
     {
@@ -71,7 +72,7 @@ class TripCardsSorter
      * @param $i
      * @param $k
      *
-     * @return mixed
+     * @return $cards_array
      */
     private function swapIndexes($cards_array, $i, $k)
     {
