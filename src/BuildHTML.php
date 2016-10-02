@@ -48,7 +48,7 @@ class BuildHTML
      */
     private function buildTrainHtml($card)
     {
-        return "<li>Take train $card[Transportation_number] from $card[Departure] to $card[Arrival]. " . $this->buildGateHTML($card) . $this->buildSeatHTML($card) . $this->buildBaggageHTML($card) . "</li>";
+        return "<li>Take train $card[Transportation_number] from $card[Departure] to $card[Arrival]. " . $this->buildGateHTML($card) . $this->buildSeatHTML($card) . "</li>";
     }
     
     /**
@@ -58,7 +58,7 @@ class BuildHTML
      */
     private function buildBusHtml($card)
     {
-        return "<li>Take the airport bus from $card[Departure] to $card[Arrival]." . $this->buildGateHTML($card) . $this->buildSeatHTML($card) . $this->buildBaggageHTML($card) . "</li>";
+        return "<li>Take the airport bus from $card[Departure] to $card[Arrival]." . $this->buildSeatHTML($card) . "</li>";
     }
     
     /**
@@ -86,7 +86,7 @@ class BuildHTML
      */
     private function buildBaggageHTML($card)
     {
-        return !empty($card['Baggage']) ? "Baggage drop at ticket counter $card[Baggage]" : "Baggage will we automatically transferred from your last leg";
+        return !empty($card['Baggage']) ? ", Baggage drop at ticket counter $card[Baggage]" : ", Baggage will we automatically transferred from your last leg";
     }
     
     /**
